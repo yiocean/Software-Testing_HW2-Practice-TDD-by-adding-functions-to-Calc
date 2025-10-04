@@ -1,4 +1,4 @@
-# Software-Testing: Calc Example (TDD Practise)
+# Software-Testing: Calc Example (TDD Practice)
 
 This folder contains a small Calculator implementation used for practicing Test-Driven Development (TDD) and unit testing with Python's built-in `unittest` framework.
 
