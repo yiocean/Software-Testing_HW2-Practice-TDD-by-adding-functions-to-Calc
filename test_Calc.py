@@ -60,9 +60,9 @@ class TestCalculator(unittest.TestCase):
     def test_divide_with_zero(self):
         calc = Calculator()
         result = calc.divide(0, 5)
-        with calc.assertRaises(ZeroDivisionError):
+        with self.assertRaises(ZeroDivisionError):
             calc.divide(5, 0)
         self.assertEqual(result, 0)
-        
-if __name__ == "__main__":
+
+if __name__ == "__main__": # pragma: no cover
     unittest.main()
