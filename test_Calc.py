@@ -53,9 +53,5 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             self.calc.divide(5, 0)
 
-    def test_fail_case():
-        assert False
-
-
 if __name__ == "__main__":  # pragma: no cover
     unittest.main()
